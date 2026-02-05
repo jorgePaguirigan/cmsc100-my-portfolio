@@ -1,0 +1,41 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: black;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333;
+    padding: 16px 30px;
+}
+
+.logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 3px;
+    color: #e50914;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 28px;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #b3b3b3;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+nav a:hover {
+    color: #ffffff;
+}

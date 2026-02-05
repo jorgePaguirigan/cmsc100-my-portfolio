@@ -171,3 +171,26 @@ h1 {
     color: red;
 }
 
+/* PROGRESS BARS */
+/* reference: https://www.w3schools.com/w3css/w3css_progressbar.asp */
+.bar-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #737373;
+    margin-bottom: 3px;
+}
+
+.bar-track {
+    height: 5px;
+    border-radius: 3px;
+    background: #2a2a2a;
+    margin-bottom: 8px;
+}
+
+.bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    background: #e50914;
+}
+
